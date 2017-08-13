@@ -1,0 +1,22 @@
+div#bbcpt-control label.quick-post-label {
+    display: block;
+    font-weight: bold;
+}
+
+div#bbcpt-control ul.quick-post-list > li {
+    margin-bottom: 12px;
+}
+
+div#bbcpt-control textarea {
+    width: 99%;
+}
+
+ul#bbcpt-edit-option-list > li {
+    float: left;
+    margin-right: 50px;
+}
+
+ul#bbcpt-edit-option-list > li#li-bbcpt-edit-target {
+    clear: both;
+    display: none;
+}
