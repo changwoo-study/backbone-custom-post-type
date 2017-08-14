@@ -1,22 +1,22 @@
-div#bbcpt-control label.quick-post-label {
+div#bb-cpt-control label.quick-post-label {
     display: block;
     font-weight: bold;
 }
 
-div#bbcpt-control ul.quick-post-list > li {
+div#bb-cpt-control ul.quick-post-list > li {
     margin-bottom: 12px;
 }
 
-div#bbcpt-control textarea {
+div#bb-cpt-control textarea {
     width: 99%;
 }
 
-ul#bbcpt-edit-option-list > li {
+ul#bb-cpt-edit-option-list > li {
     float: left;
     margin-right: 50px;
 }
 
-ul#bbcpt-edit-option-list > li#li-bbcpt-edit-target {
+ul#bb-cpt-edit-option-list > li#li-bb-cpt-edit-target {
     clear: both;
     display: none;
 }
