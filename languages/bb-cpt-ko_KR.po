@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-08-14 21:12+0900\n"
+"PO-Revision-Date: 2017-08-14 21:12+0900\n"
+"Last-Translator: Changwoo Nam <cs.chwnam@gmail.com>\n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_nx;_x;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: backbone-custom-post-type.php:60
+msgid "bb-cpt-admin"
+msgstr "bb-cpt-admin"
+
+#: backbone-custom-post-type.php:147
+msgid "Just a telephone number"
+msgstr "어떤 전화번호"
+
+#: backbone-custom-post-type.php:185
+msgid "Failed to update tel."
+msgstr "tel 업데이트 실패."
+
+#: functions.php:23
+#, php-format
+msgid "template '%s' does not exist."
+msgstr "템플릿 '%s'는 존재하지 않습니다."
+
+#: templates/admin-menu.php:7
+msgid "Backbone.js &amp; WP Custom Post"
+msgstr "백본.js &amp; 워드프레스 커스텀 포스트"
+
+#: templates/admin-menu.php:10
+msgid "Your Posts"
+msgstr "당신의 포스트들"
+
+#: templates/admin-menu.php:15 templates/admin-menu.php:33
+#: templates/admin-menu.php:51
+msgid "ID"
+msgstr "아이디"
+
+#: templates/admin-menu.php:16 templates/admin-menu.php:34
+#: templates/admin-menu.php:52 templates/admin-menu.php:115
+msgid "Author"
+msgstr "작성자"
+
+#: templates/admin-menu.php:17 templates/admin-menu.php:35
+#: templates/admin-menu.php:53
+msgid "Date"
+msgstr "날짜"
+
+#: templates/admin-menu.php:18 templates/admin-menu.php:36
+#: templates/admin-menu.php:54 templates/admin-menu.php:118
+msgid "Title"
+msgstr "제목"
+
+#: templates/admin-menu.php:19 templates/admin-menu.php:37
+#: templates/admin-menu.php:55 templates/admin-menu.php:122
+msgid "Content"
+msgstr "내용"
+
+#: templates/admin-menu.php:28
+msgid "Your Pages"
+msgstr "페이지들"
+
+#: templates/admin-menu.php:46
+msgid "Your Custom Posts"
+msgstr "커스텀 포스트들"
+
+#: templates/admin-menu.php:56 templates/admin-menu.php:126
+msgid "Telephone"
+msgstr "전화번호"
+
+#: templates/admin-menu.php:67
+msgid "Quick Post"
+msgstr "빠른 포스팅"
+
+#: templates/admin-menu.php:70
+msgid "Post Type"
+msgstr "포스트 타입"
+
+#: templates/admin-menu.php:72
+msgid "Built-in Types"
+msgstr "기본 타입"
+
+#: templates/admin-menu.php:73
+msgid "Post"
+msgstr "포스트"
+
+#: templates/admin-menu.php:74
+msgid "Page"
+msgstr "페이지"
+
+#: templates/admin-menu.php:76
+msgid "Custom Post Type"
+msgstr "커스텀 포스트 타입"
+
+#: templates/admin-menu.php:77
+msgid "bb-cpt"
+msgstr "bb-cpt"
+
+#: templates/admin-menu.php:82
+msgid "Edit Mode"
+msgstr "편집 모드"
+
+#: templates/admin-menu.php:88
+msgid "Add a new post"
+msgstr "새 포스트 추가"
+
+#: templates/admin-menu.php:95
+msgid "Modify an existing post"
+msgstr "기존 포스트 변경"
+
+#: templates/admin-menu.php:102
+msgid "Delete a post"
+msgstr "포스트 삭제"
+
+#: templates/admin-menu.php:107
+msgid "Choose a target post"
+msgstr "대상 포스트를 선택"
+
+#: templates/admin-menu.php:131
+msgid "Submit"
+msgstr "결정"
