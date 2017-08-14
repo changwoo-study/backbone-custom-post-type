@@ -4,19 +4,19 @@
  */
 ?>
 <div class="wrap">
-    <h2><?php _e( 'Backbone.js &amp; WP Custom Post', 'bbcpt' ); ?></h2>
+    <h2><?php _e( 'Backbone.js &amp; WP Custom Post', 'bb-cpt' ); ?></h2>
 </div>
 
-<h3><?php _e( 'Your Posts', 'bbcpt' ); ?></h3>
+<h3><?php _e( 'Your Posts', 'bb-cpt' ); ?></h3>
 <article id="your-posts">
     <table class="widefat">
         <thead>
         <tr>
-            <td><?php _e( 'ID', 'bbcpt' ); ?></td>
-            <td><?php _e( 'Author', 'bbcpt' ); ?></td>
-            <td><?php _e( 'Date', 'bbcpt' ); ?></td>
-            <td><?php _e( 'Title', 'bbcpt' ); ?></td>
-            <td><?php _e( 'Content', 'bbcpt' ); ?></td>
+            <td><?php _e( 'ID', 'bb-cpt' ); ?></td>
+            <td><?php _e( 'Author', 'bb-cpt' ); ?></td>
+            <td><?php _e( 'Date', 'bb-cpt' ); ?></td>
+            <td><?php _e( 'Title', 'bb-cpt' ); ?></td>
+            <td><?php _e( 'Content', 'bb-cpt' ); ?></td>
         </tr>
         </thead>
         <tbody>
@@ -25,16 +25,16 @@
 </article>
 <hr/>
 
-<h3><?php _e( 'Your Pages', 'bbcpt' ); ?></h3>
+<h3><?php _e( 'Your Pages', 'bb-cpt' ); ?></h3>
 <article id="your-pages">
     <table class="widefat">
         <thead>
         <tr>
-            <td><?php _e( 'ID', 'bbcpt' ); ?></td>
-            <td><?php _e( 'Author', 'bbcpt' ); ?></td>
-            <td><?php _e( 'Date', 'bbcpt' ); ?></td>
-            <td><?php _e( 'Title', 'bbcpt' ); ?></td>
-            <td><?php _e( 'Content', 'bbcpt' ); ?></td>
+            <td><?php _e( 'ID', 'bb-cpt' ); ?></td>
+            <td><?php _e( 'Author', 'bb-cpt' ); ?></td>
+            <td><?php _e( 'Date', 'bb-cpt' ); ?></td>
+            <td><?php _e( 'Title', 'bb-cpt' ); ?></td>
+            <td><?php _e( 'Content', 'bb-cpt' ); ?></td>
         </tr>
         </thead>
         <tbody>
@@ -43,16 +43,17 @@
 </article>
 <hr/>
 
-<h3><?php _e( 'Your Custom Posts', 'bbcpt' ); ?></h3>
+<h3><?php _e( 'Your Custom Posts', 'bb-cpt' ); ?></h3>
 <article id="your-custom-posts">
     <table class="widefat">
         <thead>
         <tr>
-            <td><?php _e( 'ID', 'bbcpt' ); ?></td>
-            <td><?php _e( 'Author', 'bbcpt' ); ?></td>
-            <td><?php _e( 'Date', 'bbcpt' ); ?></td>
-            <td><?php _e( 'Title', 'bbcpt' ); ?></td>
-            <td><?php _e( 'Content', 'bbcpt' ); ?></td>
+            <td><?php _e( 'ID', 'bb-cpt' ); ?></td>
+            <td><?php _e( 'Author', 'bb-cpt' ); ?></td>
+            <td><?php _e( 'Date', 'bb-cpt' ); ?></td>
+            <td><?php _e( 'Title', 'bb-cpt' ); ?></td>
+            <td><?php _e( 'Content', 'bb-cpt' ); ?></td>
+            <td><?php _e( 'Telephone', 'bb-cpt' ); ?></td>
         </tr>
         </thead>
         <tbody>
@@ -61,66 +62,73 @@
 </article>
 <hr/>
 
-<div id="bbcpt-control">
-    <div id="bbcpt-edit">
-        <h3><?php _e( 'Quick Post', 'bbcpt' ); ?></h3>
+<div id="bb-cpt-control">
+    <div id="bb-cpt-edit">
+        <h3><?php _e( 'Quick Post', 'bb-cpt' ); ?></h3>
         <ul class="quick-post-list">
             <li>
-                <label class="quick-post-label" for="bbcpt-edit-type"><?php _e( 'Post Type', 'bbcpt' ); ?></label>
-                <select id="bbcpt-edit-type">
-                    <optgroup label="<?php _e('Built-in Types', 'bbcpt'); ?>">
-                        <option value="post" selected><?php _e('Post', 'bbcpt'); ?></option>
-                        <option value="page"><?php _e('Page', 'bbcpt'); ?></option>
+                <label class="quick-post-label" for="bb-cpt-post-type"><?php _e( 'Post Type', 'bb-cpt' ); ?></label>
+                <select id="bb-cpt-post-type">
+                    <optgroup label="<?php _e( 'Built-in Types', 'bb-cpt' ); ?>">
+                        <option value="post" selected><?php _e( 'Post', 'bb-cpt' ); ?></option>
+                        <option value="page"><?php _e( 'Page', 'bb-cpt' ); ?></option>
                     </optgroup>
-                    <optgroup label="<?php _e('Custom Post Type', 'bbcpt'); ?>">
-                        <option value="bbcpt"><?php _e('bbcpt', 'bbcpt'); ?></option>
+                    <optgroup label="<?php _e( 'Custom Post Type', 'bb-cpt' ); ?>">
+                        <option value="bb-cpt"><?php _e( 'bb-cpt', 'bb-cpt' ); ?></option>
                     </optgroup>
                 </select>
             </li>
             <li>
-                <label class="quick-post-label"><?php _e('Edit Mode', 'bbcpt'); ?></label>
-                <ul id="bbcpt-edit-option-list">
+                <label class="quick-post-label"><?php _e( 'Edit Mode', 'bb-cpt' ); ?></label>
+                <ul id="bb-cpt-edit-option-list">
                     <li>
-                        <label for="bbcpt-edit-mode-new">
-                            <input id="bbcpt-edit-mode-new" type="radio" name="bbcpt-edit-mode" value="new" data-mode="add" checked />
-		                    <?php _e('Add a new post', 'bbcpt'); ?>
+                        <label for="bb-cpt-edit-mode-new">
+                            <input id="bb-cpt-edit-mode-new" type="radio" name="bb-cpt-edit-mode" value="new"
+                                   data-mode="add" checked/>
+							<?php _e( 'Add a new post', 'bb-cpt' ); ?>
                         </label>
                     </li>
                     <li>
-                        <label for="bbcpt-edit-mode-modify">
-                            <input id="bbcpt-edit-mode-modify" type="radio" name="bbcpt-edit-mode" value="modify" data-mode="modify" />
-		                    <?php _e('Modify an existing post', 'bbcpt'); ?>
+                        <label for="bb-cpt-edit-mode-modify">
+                            <input id="bb-cpt-edit-mode-modify" type="radio" name="bb-cpt-edit-mode" value="modify"
+                                   data-mode="modify"/>
+							<?php _e( 'Modify an existing post', 'bb-cpt' ); ?>
                         </label>
                     </li>
                     <li>
-                        <label for="bbcpt-edit-mode-delete">
-                            <input id="bbcpt-edit-mode-delete" type="radio" name="bbcpt-edit-mode" value="delete" data-mode="delete" />
-		                    <?php _e('Delete a post', 'bbcpt'); ?>
+                        <label for="bb-cpt-edit-mode-delete">
+                            <input id="bb-cpt-edit-mode-delete" type="radio" name="bb-cpt-edit-mode" value="delete"
+                                   data-mode="delete"/>
+							<?php _e( 'Delete a post', 'bb-cpt' ); ?>
                         </label>
                     </li>
-                    <li id="li-bbcpt-edit-target">
-                        <label for="bbcpt-edit-target">
-		                    <?php _e('Choose a target post', 'bbcpt'); ?>
-                            <select id="bbcpt-edit-target"></select>
+                    <li id="li-bb-cpt-edit-target">
+                        <label for="bb-cpt-edit-target">
+							<?php _e( 'Choose a target post', 'bb-cpt' ); ?>
+                            <select id="bb-cpt-edit-target"></select>
                         </label>
                     </li>
                 </ul>
                 <div class="clear"></div>
             </li>
             <li>
-                <label class="quick-post-label" for="bbcpt-edit-author"><?php _e( 'Author', 'bbcpt' ); ?></label>
-		        <?php wp_dropdown_users( array('id' => 'bbcpt-edit-author')); ?>
+                <label class="quick-post-label" for="bb-cpt-edit-author"><?php _e( 'Author', 'bb-cpt' ); ?></label>
+				<?php wp_dropdown_users( array( 'id' => 'bb-cpt-edit-author' ) ); ?>
             <li>
-                <label class="quick-post-label" for="bbcpt-edit-title"><?php _e( 'Title', 'bbcpt' ); ?></label>
-                <input id="bbcpt-edit-title" type="text" class="text large-text" value=""/>
+                <label class="quick-post-label" for="bb-cpt-edit-title"><?php _e( 'Title', 'bb-cpt' ); ?></label>
+                <input id="bb-cpt-edit-title" type="text" class="text large-text" value=""/>
             </li>
             <li>
-                <label class="quick-post-label" for="bbcpt-edit-content"><?php _e( 'Content', 'bbcpt' ); ?></label>
-                <textarea id="bbcpt-edit-content" rows="5"></textarea>
+                <label class="quick-post-label" for="bb-cpt-edit-content"><?php _e( 'Content', 'bb-cpt' ); ?></label>
+                <textarea id="bb-cpt-edit-content" rows="5"></textarea>
+            </li>
+            <li>
+                <label class="quick-post-label" for="bb-cpt-meta-tel"><?php _e( 'Telephone', 'bb-cpt' ); ?></label>
+                <input id="bb-cpt-meta-tel" type="text" class="text" value="" />
             </li>
         </ul>
-        <button id="bbcpt-edit-button" type="button" class="button button-primary">
-            <?php _e('Post Now', 'bbcpt'); ?>
+        <button id="bb-cpt-edit-button" type="button" class="button button-primary">
+			<?php _e( 'Submit', 'bb-cpt' ); ?>
         </button>
     </div>
 </div>
@@ -128,11 +136,16 @@
 <script type="text/template" id="tmpl-table-template">
     <# _.each(data, function(model) { #>
         <tr>
-            <td> {{ model.attributes.id }} </td>
-            <td> {{ model.attributes.author }} </td>
+            <td> {{ model.attributes.id }}</td>
+            <td> {{ model.attributes.author }}</td>
             <td> {{ model.attributes.date }}</td>
             <td> {{{ model.attributes.title.rendered }}}</td>
             <td> {{{ model.attributes.content.rendered }}}</td>
+            <td>
+                <# if(model.attributes.hasOwnProperty('tel')) { #>
+                    {{ model.attributes.tel }}
+                <# } #>
+            </td>
         </tr>
-    <# }); #>
+        <# }); #>
 </script>
